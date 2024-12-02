@@ -1,0 +1,34 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: white;
+ margin: 0px;
+ height: 100vh;
+}
+#Cal-Body{
+ background-color: white;
+ width: 200px;
+ padding: 40px;
+ border:2px solid;
+ border-radius: 40px;
+}
+#Buttons{
+ display: grid;
+ grid-template-columns: 62px 62px 62px;
+ grid-template-rows: auto auto auto;
+ gap: 5px;
+ cursor: pointer;
+}
+#Buttons > button{
+ padding: 20px;
+}
+#Display{
+ margin-bottom: 40px;
+ text-align: right;
+ padding: 10px;
+}
+#Name{
+ padding-top: 500px;
+ font-family: Helvetica;
+}
