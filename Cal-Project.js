@@ -22,6 +22,7 @@ function Calculate() {
   // it replaces the percentage with /100 so the computer would be able to recognize it and calculate it
   replacedVersion=replacedVersion.replace(/\^/g,'**')
   // it replaces the exponential symbol with ** so the computer would be able to recognize it and calculate it. The back-slash helps for the computer to recognize it is not an ending
+  
   ScreenDisplay.value=eval(replacedVersion); 
   // it should calculate the value with /100 
  } catch (error) {
